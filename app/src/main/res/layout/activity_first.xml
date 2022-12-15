@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="353dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edtYear"
+        app:layout_constraintStart_toStartOf="@+id/edtYear"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtYear"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Your year of birth"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/btnClick"
+        app:layout_constraintStart_toStartOf="@+id/btnClick"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtName" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="235dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:onClick="fnCountAge"
+        android:text="click me"
+        app:layout_constraintEnd_toEndOf="@+id/txtvwAge"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/txtvwAge"
+        app:layout_constraintTop_toBottomOf="@+id/edtYear" />
+
+    <TextView
+        android:id="@+id/txtvwAge"
+        android:layout_width="202dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:text="This is First Activity"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/btnClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="236dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="200dp"
+        android:onClick="fnThreadActivity"
+        android:text="@string/btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwAge"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnSecAct"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:onClick="fnGoNext"
+        android:text="to sec activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.227" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

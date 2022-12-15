@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FirstAppLecture</string>
+    <string name="btnHello">Hello</string>
+    <string name="address">C-2-9, Vista Amani Condominium, Bandar Sri Permaisuri
+    56000, Cheras, KL</string>
+    <string name="success">YES! the text changed</string>
+    <string name="btnClick">To new activity</string>
+
+    <string-array name="state_arrays">
+        <item>Melaka</item>
+        <item>Selangor</item>
+        <item>Johor</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Terengganu</item>
+        <item>Kedah</item>
+        <item>Perlis</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

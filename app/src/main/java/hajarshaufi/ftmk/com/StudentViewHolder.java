@@ -12,11 +12,11 @@ public class StudentViewHolder extends RecyclerView.ViewHolder {
 
     public StudentViewHolder(@NonNull View itemView){
         super(itemView);
-        this.lblFullName = itemView.findViewById(R.id.edtFullName);
-        this.lblStudNo = itemView.findViewById(R.id.edtStudNum);
-        this.lblGender = itemView.findViewById(R.id.rgGender);
-        this.lblBirthdate = itemView.findViewById(R.id.edtBirthdate);
-        this.lblEmail = itemView.findViewById(R.id.edtEmail);
+        this.lblFullName = itemView.findViewById(R.id.lblFullName);
+        this.lblStudNo = itemView.findViewById(R.id.lblStudNo);
+        this.lblGender = itemView.findViewById(R.id.lblGender);
+        this.lblBirthdate = itemView.findViewById(R.id.lblBirthdate);
+        this.lblEmail = itemView.findViewById(R.id.lblEmail);
         this.lblState = itemView.findViewById(R.id.lblState);
     }
 

@@ -22,6 +22,7 @@
         android:ems="10"
         android:hint="Your Student Number"
         android:inputType="textPersonName" />
+
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
@@ -29,6 +30,7 @@
         android:ems="10"
         android:hint="your_email@utem.edu.my"
         android:inputType="textEmailAddress" />
+
     <EditText
         android:id="@+id/edtBirthdate"
         android:layout_width="match_parent"
@@ -78,17 +80,22 @@
         android:entries="@array/state_arrays" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabAdd"
+        android:id="@+id/fabAddBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_input_add"
         android:layout_gravity="center"/>
 
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Entry" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcvStud"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 
 </LinearLayout>
